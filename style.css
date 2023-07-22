@@ -1,0 +1,108 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.conta {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    color: aliceblue;
+    position: relative;
+}
+
+.conta-2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+p .g-d {
+    border-bottom: 2px solid #35e888;
+    padding-bottom: 6px;
+}
+
+.s-l {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(128, 128, 130, 0.2);
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    margin: 5px;
+}
+
+.social-link {
+    width: 200px;
+    display: flex;
+    position: relative;
+}
+
+i {
+    justify-content: center;
+    align-items: center;
+}
+
+.s-l:hover {
+    background-color: #35e888;
+    transition: ease-in-out 0.3s;
+}
+
+.ul-1 {
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    width: 500px;
+}
+
+ul.ul-2 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+a {
+    margin-top: 12px;
+    margin-left: 12px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.a-marg {
+    margin: 15px;
+    
+}
+.spec{
+    border-bottom: 2px solid #35e888;
+    padding-bottom: 6px;
+    display: flex;
+    
+}
+.a-marg:hover{
+    border-bottom: 2px solid #35e888;
+    padding-bottom: 6px;
+    transition: ease-in-out 0.3s;
+}
